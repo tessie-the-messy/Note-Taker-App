@@ -30,4 +30,4 @@ app.post("/api/notes", (req, res) => {
         })
 
 app.listen(PORT,()=>
-console.log("server running"))
+console.log(`server running on ${PORT}`))
